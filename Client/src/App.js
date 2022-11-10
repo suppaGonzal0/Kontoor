@@ -6,8 +6,8 @@ import { Entry } from './pages/entry/Entry';
 import { Out } from './pages/out/Out';
 import History from './pages/history/History';
 import Permissions from './pages/permissions/Permissions';
-import { Signin } from './pages/signin/Signin';
-import { Singup } from './pages/signup/Singup';
+import { Signin } from './pages/signinup/Signin';
+import { Signup } from './pages/signinup/Signup';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
             <Route path="/stock-history" element={<History/>}/>
             <Route path="/permissions" element={<Permissions/>}/>
             <Route path="/signin" element={<Signin/>}/>
-            <Route path="/signup" element={<Singup/>}/>
+            <Route path="/signup" element={<Signup/>}/>
           </Routes>
         </BrowserRouter>  
     </div>
